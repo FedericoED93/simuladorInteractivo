@@ -1,3 +1,5 @@
+
+/*
 alert("Despertaste en un planeta desértico, tu nave colonial está detrás tuyo y parece haber sido derriba o tal vez se estrelló al querer descender")
 alert("Algo salió mal")
 
@@ -79,3 +81,28 @@ while (accionInicio != "Salir"){
             break;
             }
             }
+
+            */
+
+const mercenario = ["Destreza", "Fuerza", "Vitalidad"]
+const legionario = ["Punteria", "Destreza", "Templanza"]
+const cientifico = ["Inteligencia", "Supervivencia", "Concentracion"]
+
+alert("¡Bienvenido al juego interactivo de Luna Sombría!")
+alert("Selecciona quién queres ser en ésta historia")
+
+let seleccion = prompt(" 1 - Mercenario \n 2 - Legionario \n 3 - Científico")
+
+if (seleccion == "1") {
+    alert("Tus habilidades son: ")
+    alert(mercenario.join(" - "))
+    } else if (seleccion == "2"){
+        alert("Tus habilidades son: ")
+        alert(legionario.join(" - "))
+    } else if (seleccion == "3") {
+    alert("Tus habilidades son: ")
+    alert(cientifico.join(" - "))
+    }
+
+
+    
